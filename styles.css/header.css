@@ -90,7 +90,7 @@
 }
 
 .middle-section{
-    margin:0px 0px 0px 40px;
+    margin:0px 15px 0px 40px;
     display:flex;
     align-items:center;
     height:40px;
@@ -99,32 +99,51 @@
 }
 
 .nav-1{
-    height:47px;
-    width:65px;
-    background-color: rgb(231, 231, 231);
+    height:42px;
+    width:60px;
+    background-color: rgb(240, 240, 240);
     border-radius:4px 0px 0px 4px;
-    align-items: center;
-    vertical-align: middle;
+    border-style: none;
 }
+
+.nav-1:hover{
+    background-color:rgb(228, 228, 228);
+}
+
+.nav-placeholder{
+    margin-top: 9px;
+    margin-left: 12px;
+}
+
+.all-text{
+     color:rgb(107, 107, 107);
+     font-size:13px;
+}
+
+
 
 .arrow{
     height:13px;
     margin-top: 4px;
-    margin-left: 9px;
+    margin-left: 4px;
 }
 
 .search{
     height:40px;
     width:650px;
+    border: none;
+    border-width: none;
+    border-style: none;
 }
 
 .search-img{
-    height:21px;
+    height:22px;
+    margin: 9px 0px 0px 13px;
 }
 
 .search-img-right{
-    height:48px;
-    width:55px;
+    height:42px;
+    width:48px;
     background-color: rgb(243,168,71);
     border-radius:0px 4px 4px 0px;
 }
