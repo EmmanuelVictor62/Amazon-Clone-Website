@@ -1,3 +1,4 @@
+
 .general-header{
     display:flex;
     flex-direction: column;
@@ -138,7 +139,7 @@
 
 .search-img{
     height:22px;
-    margin: 9px 0px 0px 13px;
+    margin: 10px 0px 0px 13px;
 }
 
 .search-img-right{
@@ -249,10 +250,16 @@
     text-decoration: none;
 }
 
+
+
 .left{
     display: flex;
     align-items:center;
-    margin-left: 12px;
+    margin-left: 10px;
+}
+
+.left:hover{
+    border:white solid 1px;
 }
 
 .hamburger-icon{
@@ -264,5 +271,15 @@
     color:white;
     font-weight: 700;
     font-size:17px;
-    margin-left: 6px;
+    padding:5px 9px 5px 9px;
+}
+
+
+
+.icon-label{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+    font-size:17px;
+    padding:5px 9px 5px 9px;
 }
