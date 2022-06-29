@@ -1,0 +1,249 @@
+.general-header{
+    display:flex;
+    flex-direction: column;
+}
+
+.first-header{
+    background-color: #131921;
+    height:65px;
+    width:100%;
+    background-size:auto;
+    font-size:14px;
+    display:flex;
+    flex-shrink:0;
+    position:static;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.left-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon-logo{
+    display:flex;
+    margin:0px 8px 0px 8px;
+    padding:0px 10px 4px 10px ;
+}
+
+.amazon-logo:hover{
+    border:solid white 1px;
+    transition:0.25s;
+}
+
+.amazon-link{
+    text-decoration: none;
+    height:55px;
+}
+
+.amazon-image{
+    height:70px;
+    width:100px;
+}
+
+.location-box{
+    display:flex;
+    justify-content: center;
+    padding:13px 9px 13px 9px ;
+    margin:0px 0px 0px 0px;
+    cursor:pointer;
+}
+
+.location-box:hover{
+    border:solid white 1px;
+    transition:0.25s ;
+}
+
+.location-icon-box{
+    margin-top:8px;
+}
+
+
+.location-image{
+    height:18px;
+    width:17px; 
+    color:white;
+}
+
+.row{
+    display:grid;
+    padding-left:5px;
+
+}
+
+.Deliver{
+    text-decoration: none;
+    color:rgb(204, 204, 204);
+    font-size:13px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:14px;
+    padding-bottom:1px;
+}
+
+.Nigeria{
+    color:white;
+    font-weight:700;
+    font-size:15px;
+    height:17px;
+    padding-bottom:1px;
+}
+
+.middle-section{
+    margin:0px 0px 0px 40px;
+    display:flex;
+    align-items:center;
+    height:40px;
+    padding:10px 0px 10px 0px;
+    cursor:pointer;
+}
+
+.nav-1{
+    height:47px;
+    width:65px;
+    background-color: rgb(231, 231, 231);
+    border-radius:4px 0px 0px 4px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.arrow{
+    height:13px;
+    margin-top: 4px;
+    margin-left: 9px;
+}
+
+.search{
+    height:40px;
+    width:650px;
+}
+
+.search-img{
+    height:21px;
+}
+
+.search-img-right{
+    height:48px;
+    width:55px;
+    background-color: rgb(243,168,71);
+    border-radius:0px 4px 4px 0px;
+}
+
+.right-section{
+    display:flex;
+    align-items: center;
+}
+
+.flag{
+    height:15px;
+}
+
+.arrow-2{
+    height:11px;
+    margin-top: 6px;
+    margin-left: 3px;
+    display: inline-block;
+}
+
+.block-1{
+    display:flex;
+    margin-left: 15px;
+    margin-top: 0px;
+    flex-shrink:0;
+}
+
+.block-1:hover{
+    border:solid white 1px;
+    transition:0.25s;
+}
+
+
+.block-2{
+    display:grid;
+    margin-bottom: 2px;
+    margin-left: 25px;
+    cursor: pointer;
+    min-width:100px;
+    flex-shrink:0;
+    padding:7px 9px 12px 9px;
+}
+
+.block-2:hover{
+    border:solid white 1px;
+    transition:0.25s;
+}
+
+.block-3{
+    display:grid;
+    margin-left: 5px;
+    cursor:pointer;
+    flex-shrink:0;
+    padding:9px 11px 9px 11px;
+}
+
+.block-3:hover{
+    border:solid white 1px;
+    transition:0.25s;
+}
+
+.Hello{
+    color:rgb(247, 247, 247);
+    font-size:13px;
+}
+
+.block-4{
+    display:flex;
+    align-items: center;
+    margin-left:5px;
+    margin-bottom: 0px;
+    flex-shrink:0;
+    padding:5px 9px 5px 9px;
+    cursor:pointer;
+}
+
+.block-4:hover{
+    border:solid white 1px;
+    transition:0.25s;
+}
+
+
+.cart-img{
+    height:40px;
+}
+
+.cart{
+    color:white;
+    font-weight:800;
+    padding-left: 7px;
+    margin-top: 10px;
+}
+
+.second-header{
+    background-color:rgb(35,47,62);
+    height:38px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.left{
+    display: flex;
+    align-items:center;
+    margin-left: 12px;
+}
+
+.hamburger-icon{
+    height:22px;
+}
+
+.all{
+    text-decoration: none;
+    color:white;
+    font-weight: 700;
+    font-size:17px;
+    margin-left: 6px;
+}
