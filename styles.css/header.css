@@ -240,7 +240,7 @@
 
 .second-header{
     background-color:rgb(35,47,62);
-    height:38px;
+    height:40px;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -250,12 +250,20 @@
     text-decoration: none;
 }
 
+.left2{
+    display: flex;
+    align-items:center;
+    margin-left: 0px;
+}
 
+.left2:hover{
+    border:white solid 1px;
+}
 
 .left{
     display: flex;
     align-items:center;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .left:hover{
@@ -279,7 +287,7 @@
 .icon-label{
     text-decoration: none;
     color:white;
-    font-weight: 600;
+    font-weight: 500;
     font-size:17px;
     padding:5px 9px 5px 9px;
 }
