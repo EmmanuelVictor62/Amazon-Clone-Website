@@ -221,6 +221,15 @@ progress::-webkit-progress-value{
     padding:0px;
 }
 
+.all-stars .fa-solid{
+    color:rgb(255,164,28);
+    margin:0px;
+    padding:0px;
+    font-size:16px;
+}
+
+<i class="fa-solid fa-star-half-stroke"></i>
+
 .arrow-down{
     display:inline-block;
 }
