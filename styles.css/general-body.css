@@ -1,12 +1,3 @@
-@font-face {
-    font-family:Amazon;
-    src: url(Amazon-clone/fonts-2/Amazon-Ember-Medium);   
-}
-
-@media-query (min width:700px){
-.product-body{grid-template-columns:1fr 1fr;}
-}
-
 .general-body{
     margin:0px 0px 0px 0px ;
     overflow-x: hidden;
