@@ -1,57 +1,193 @@
 @font-face {
-    src: url(Amazon-clone/fonts-2/Amazon-Ember-Medium);
     font-family:Amazon;
+    src: url(Amazon-clone/fonts-2/Amazon-Ember-Medium);   
+}
+
+@media-query (min width:700px){
+.product-body{grid-template-columns:1fr 1fr;}
+}
+
+.general-body{
+    margin:0px 0px 0px 0px ;
+    overflow-x: hidden;
+}
+
+.heading-text{
+    display:inline-block;
 }
 
 .heading{
     font-weight:500;
-    font-size:22px;
+    font-size:20px;
     font-family: Amazon;
-    margin:50px 0px 8px 9px ;
+    margin:50px 0px 6px 10px ;
 }
 
 .Subheading{
-    margin:0px 0px 5px 7px;
+    margin:0px 0px 5px 10px;
     color:rgb(80, 80, 80);
-    font-size: 18px;
+    font-size: 16px;
     font-family:Amazon;
 }
 
 
+.main-body{
+    display: flex;
+}
+
 .general-body-2{
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-bottom: 700px;
+    display:flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: stretch;
+    grid-template-columns:280px 1fr;
+    grid-auto-columns: auto;
+}
+
+.product-body{
+    display:block;
+    width: 1070.39px;
+}
+
+.general-first-product{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+      
+}
+
+.general-second-product{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 1182.92px;
+}
+
+.general-third-product{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.general-fourth-product{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.general-fifth-product{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 
 .first-product{
-    width:270px;
-    display: grid;
+    width:250px;
+    display: flex;
+    flex-direction: column;
     border:solid 1px rgb(243, 243, 243);
-    height:480px;
+    height:500px;
    justify-content: center;
    border-radius:4px;
    position:relative;
+   margin:0px 0px 20px 10px;
+}
+
+
+.badge1{
+    background-color: blue;
+    position:absolute;
+    display: inline-block;
+}
+
+.badge2{
+    background-color: blue;
+    position:absolute;
+    left:130px;
+    border-right:solid black 1px;
+    display: inline-block;
+}
+
+.second-product{
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    border:solid 1px rgb(243, 243, 243);
+    height:580px;
+   justify-content: center;
+   border-radius:4px;
+   position:relative;
+   margin:0px 0px 15px 10px;
+}
+
+.third-product{
+    width:250px;
+    display: grid;
+    border:solid 1px rgb(243, 243, 243);
+    height:580px;
+   justify-content: center;
+   border-radius:4px;
+   position:relative;
+   margin:0px 0px 15px 10px;
+}
+
+.fourth-product{
+    width:250px;
+    display: grid;
+    border:solid 1px rgb(243, 243, 243);
+    height:580px;
+   justify-content: center;
+   border-radius:4px;
+   position:relative;
+   margin:0px 0px 15px 10px;
+}
+
+.fifth-product{
+    width:250px;
+    display: grid;
+    border:solid 1px rgb(243, 243, 243);
+    height:580px;
+   justify-content: center;
+   border-radius:4px;
+   position:relative;
+   margin:0px 0px 0px 10px;
 }
 
 .first-layer{
    background-color:rgb(248, 246, 246);
-   width:270px;
+   width:250px;
    height:288px;
    display:grid;
    justify-content: center;
+   align-items: center;
 }
 
 
 .image-1st-product{
-    width:250px;
+    width:220px;
+    margin-top:35px;
+}
+
+.image-office-chair{
+    width:200px;
+    height:220px;
     margin-top:35px;
 }
 
 .second-layer{
     background-color: white;
-    height:190px;
+    height:210px;
+}
+
+.second-layer2{
+    background-color: white;
+    height:250px;
 }
 
 .Amazon-link{
@@ -61,7 +197,7 @@
 
 .title-link{
     text-decoration: none;
-    font-size:19px;
+    font-size:17px;
     color:black;
 }
 
@@ -91,7 +227,9 @@
 
 .all-stars .tooltip{
     position:absolute;
-    top:20px;
+    top:27px;
+    right:0px;
+    right:-150px;
     background-color:white;
     width:380px;
     height:400px;
@@ -123,7 +261,7 @@
 
 .all-stars .rating{
     font-weight:400;
-    font-size:17px;
+    font-size:15px;
     display:block;
     color:rgb(75, 75, 75);
     margin:0px 0px 15px 20px;
@@ -188,12 +326,18 @@ progress::-webkit-progress-value{
     margin-left:13px;
 }
 
+.id-2090{
+   display: inline-block;
+}
+
+
 .id-2095{
     margin:25px 0px 0px 90px;
 }
 
 .id-2095 .fa-solid{
     color:rgb(3, 126, 126);
+    display:inline-block;
 }
 
 .id-2097{
@@ -228,7 +372,7 @@ progress::-webkit-progress-value{
     font-size:16px;
 }
 
-<i class="fa-solid fa-star-half-stroke"></i>
+
 
 .arrow-down{
     display:inline-block;
@@ -249,6 +393,10 @@ progress::-webkit-progress-value{
     font-size:17px;
 }
 
+.number:hover{
+    color:brown;
+}
+
 .price-box{
     display:block;
     margin:13px 0px 0px 12px;
@@ -258,15 +406,48 @@ progress::-webkit-progress-value{
     position:relative;
 }
 
+.discount{
+    color:brown;
+    cursor: pointer;
+    display:inline-block;
+    font-size:24px;
+    padding-left:4px;
+}
+
 .number-list{
     font-weight:600;
     color:black;
-    font-size:30px;
+    font-size:25px;
 }
 
 .fa-solid{
     color:black;
 }  
+
+.discount-bonus{
+    font-size:14px;
+    color:rgb(90, 90, 90);
+    width:200px;
+    margin:5px 0px 0px 0px ;
+    cursor: pointer;
+}
+
+.discount-bonus:hover{
+    color:brown;
+}
+
+.discount-bonus2 {
+    font-size: 14px;
+}
+
+.discount-bonus2 .fa-solid{
+    font-size: 10px;
+    color:gray;
+}
+
+.counter{
+    width:18px;
+}
 
 
 

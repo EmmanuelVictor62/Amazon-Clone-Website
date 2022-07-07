@@ -152,6 +152,7 @@
 .right-section{
     display:flex;
     align-items: center;
+    flex-shrink: 1;
 }
 
 .flag{

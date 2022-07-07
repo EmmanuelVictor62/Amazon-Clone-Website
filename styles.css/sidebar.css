@@ -1,17 +1,30 @@
 .general-sidebar{
-    display:grid ;
-    width:300px;
+    display:block;
+    flex-direction: column;
+    width:280px;
     color:rgb(15, 17, 17);
     font-size:16px;
+    float:left;
+    margin-left:10px;
 }
 
-.sidebar.com{
+.title-heading-1{
+    margin:40px 0px 10px 0px;
+}
+
+.title-heading-2{
+    margin:0px;
+}
+
+.title-heading-3{
     display:block;
+    font-size: 16px;
+    margin: 0px;
 }
 
 #link-1{
     display:block;
-
+    line-height: 22px;
 }
 
 .products-link{
@@ -19,4 +32,82 @@
     text-decoration: none;
     color:inherit;
     font-size: inherit;
+    padding-left:0px;
 }
+
+.products-link-span:hover{
+    color:brown;
+}
+
+.products-link-span{
+    font-size: 16px;
+    color:black;
+}
+
+.products-link-2{
+    display: block;
+    text-decoration: none;
+    color:inherit;
+    font-size: inherit;
+    padding-left:18px;
+}
+
+
+.products-link-span-2{
+    font-size: 15px;
+    color:black;
+} 
+
+#n_2097{
+    text-decoration:none;
+}
+
+.title-head-1{
+    margin:10px 0px 10px 0px;
+}
+
+.general-sidebar .fa-regular{
+    color:rgb(255,164,28);
+}
+
+.id-30 .id-301{
+    font-size:13px;
+    color:black;
+}
+
+.id-31{
+    text-decoration: none;
+}
+
+.div-3 .title-heading-1{
+    margin:25px 0px 10px 0px;
+}
+
+.input-1{
+    margin:0px 0px 0px 0px ;
+    display:inline-block;
+}
+
+.id-19{
+    display:block;
+    cursor:pointer;
+}
+
+.id-19:hover{
+    color:brown;
+}
+
+.price{
+    font-size:16px;
+    color:black;
+    margin-bottom:5px;
+}
+
+.price:hover{
+    color:brown;
+}
+
+.div-5{
+    line-height:20px;
+}
+
